@@ -35,8 +35,8 @@ a:active { color: #dc322f; }
 }
 
 .headermenu {
-    background-color: #859900; /* green */
-    color: #073642;
+    background-color: #839496; /* green */
+    color: #002b36;
     margin: 0px 0px 0px 0px;
     position: fixed;
     width: 100%;
@@ -44,7 +44,8 @@ a:active { color: #dc322f; }
     left: 0;
 }
 .h-link:link {
-    color: #6c71c4;
+    font-weight: bold;
+    color: #dc322f;
     background-color: #eee8d5;
 }
 
@@ -61,5 +62,12 @@ hr { display: none; }
     align: right;
 }
 
+.res {
+    margin: 10px 10px 10px 10px;
+    padding: 3px 3px 3px 3px;
+    border-left: solid 1px #859900;
+}
+
 .reshead {
+    background-color: #073642;
 }
